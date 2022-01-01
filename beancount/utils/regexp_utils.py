@@ -5,6 +5,8 @@ __license__ = "GNU GPLv2"
 
 
 UNICODE_RANGES = {
+    # Chinese
+    'zh-CN': (r'\u4e00-\u9fa5'),
     # Letters.
     'L': (r'\u0041-\u005A'
           r'\u0061-\u007A'
